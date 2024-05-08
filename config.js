@@ -13,6 +13,7 @@ const API =
     : "http://localhost:3000/api";
 
 const NEXTAUTH_SECRET = "GSFGS5566dhdhDHDH888";
+const NEXTAUTH_URL="https://multiuserblog-one.vercel.app";
 
 const GOOGLE_CLIENT_ID = "1051833473520-0u00l10smfs7gn4agqajb05qd4jfkui8.apps.googleusercontent.com";
 const GOOGLE_CLIENT_SECRET = "JpNPaXaDnU985DhyyUSMXlvT";
@@ -37,4 +38,5 @@ module.exports = {
   CLOUDINARY_API_SECRET,
   GMAIL_AUTH_USER,
   GMAIL_AUTH_PASS,
+  NEXTAUTH_URL
 };
