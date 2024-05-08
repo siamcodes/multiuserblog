@@ -1,11 +1,11 @@
-/*
+
 const DB_URI =
   process.env.NODE_ENV === "production"
     ? "mongodb+srv://siamcodes:6Eba0874@cluster0.l2npy.gcp.mongodb.net/multiuserblog?retryWrites=true&w=majority"
     : "mongodb://localhost:27017/multiuserblog";
-*/
 
-const DB_URI = "mongodb+srv://siamcodes:6Eba0874@cluster0.l2npy.gcp.mongodb.net/multiuserblog?retryWrites=true&w=majority";
+
+//const DB_URI = "mongodb+srv://siamcodes:6Eba0874@cluster0.l2npy.gcp.mongodb.net/multiuserblog?retryWrites=true&w=majority";
 
 const API =
   process.env.NODE_ENV === "production"
