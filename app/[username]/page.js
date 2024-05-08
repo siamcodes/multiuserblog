@@ -51,9 +51,9 @@ export default async function UserPublicProfile({ params, searchParams }) {
     <>
       <div className="container mt-4">
         <div className="row">
-          <pre className="lead text-primary fw-bold col-lg-6">
+          {/* <pre className="lead text-primary fw-bold col-lg-6">
             {JSON.stringify(u, null, 4)}
-          </pre>
+          </pre> */}
           <div className="col-lg-6">
             <ContactAuthor emailTo={user?.email} />
           </div>
