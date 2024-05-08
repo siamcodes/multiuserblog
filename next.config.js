@@ -3,8 +3,8 @@ const config = require("./config");
 
 const nextConfig = {
   serverRuntimeConfig: {
-    timeout: 120000, // 2 minutes (adjust as needed)
-    //timeout: 30000, // 30 sec
+    //timeout: 120000, // 2 minutes (adjust as needed)
+    timeout: 30000, // 30 sec
   },
   images: {
     remotePatterns: [
