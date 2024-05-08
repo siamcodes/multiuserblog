@@ -9,7 +9,7 @@ const DB_URI =
 
 const API =
   process.env.NODE_ENV === "production"
-    ? "https://siamcodes.com/api"
+    ? "https://multiuserblog-one.vercel.app/api"
     : "http://localhost:3000/api";
 
 const NEXTAUTH_SECRET = "GSFGS5566dhdhDHDH888";
