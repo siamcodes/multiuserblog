@@ -9,7 +9,7 @@ const DB_URI = "mongodb+srv://siamcodes:6Eba0874@cluster0.l2npy.gcp.mongodb.net/
 
 const API =
   process.env.NODE_ENV === "production"
-    ? "https://multiuserblog-kappa.vercel.app/api"
+    ? "https://multiuserblog-one.vercel.app/api"
     : "http://localhost:3000/api";
 
 const NEXTAUTH_SECRET = "66FgGGHHsdFsSSSDRNMDGSTA566JghDH";
