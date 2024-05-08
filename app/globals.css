@@ -1,0 +1,86 @@
+.hidden {
+  display: none;
+}
+.vh-90 {
+  height: 90vh;
+}
+.vh-80 {
+  height: 70vh;
+}
+.vh-50 {
+  height: 50vh;
+}
+.vh-20 {
+  height: 20vh;
+}
+.pointer {
+  cursor: pointer;
+}
+/* markdown */
+.markdown-preview img {
+  width: 100%;
+}
+/* pre code, */
+.hljs-title {
+  color: #999 !important;
+}
+/* markdown table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #000;
+  color: #fff;
+}
+/* markdown blockquote */
+blockquote {
+  background: #000;
+  color: #999;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 1em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/* hide scrollbar on tag create */
+/* Define the custom scrollbar styles */
+.custom-scrollbar {
+  max-height: 300px;
+  overflow: auto;
+}
+
+/* Track */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 18px;
+  /* background-color: #000; */
+  border-radius: 4px;
+}
+
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
